@@ -1,0 +1,55 @@
+.navbar-header a.white-color{
+    color: white;
+}
+
+.statistics-btn{
+    background-color: transparent;
+    color: white;
+}
+
+a.statistics-btn:hover,
+a.statistics-btn:focus {
+    color: red;
+}
+
+.statistics-badge {
+    padding-top: 5px;
+    background-color: red;
+}
+
+nav li a {
+    text-transform: uppercase;
+}
+
+nav.my-navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+ }
+
+.item img {
+    width: 100%;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.no-padding-left-right{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+@media (max-width: 768px) {
+    .statistics-btn {
+        padding: 0;
+    }
+
+    .table-overflow{
+        overflow-x: scroll;
+    }
+}

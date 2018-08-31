@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football</title>
+    <script src="lib/jquery-3.3.1.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse my-navbar">
+    <div class="navbar-header">
+        <a href="football.html" class="navbar-brand white-color">
+            FOOTBALL
+        </a>
+        <button class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#myDropdown">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myDropdown">
+        <ul class="nav navbar-nav">
+            <li><a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank"> Messi </a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Neymar" target="_blank"> Neymar </a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Ronaldo" target="_blank"> Ronaldo </a></li>
+        </ul>
+
+        <a href="statistics.html" class="btn navbar-btn navbar-right statistics-btn">
+            STATISTISTICS <span class="badge statistics-badge">20</span>
+        </a>
+    </div>
+</nav>
+
+<div class="carousel" id="slider" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/barcelona.jpg"/>
+        </div>
+        <div class="item">
+            <img src="images/manchestercity.jpg"/>
+        </div>
+        <div class="item">
+            <img src="images/juventus.jpg"/>
+        </div>
+    </div>
+
+    <a href="#slider" class="left carousel-control" data-slide="prev">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+    </a>
+
+    <a href="#slider" class="right carousel-control" data-slide="next">
+        <i class="glyphicon glyphicon-chevron-right"></i>
+    </a>
+
+    <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+    </ol>
+</div>
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Football players</h1>
+        <p>
+            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+            a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five
+            centuries,
+            but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <i class="far fa-futbol"></i> Messi
+                </div>
+                <div class="panel-body">
+                    <p>
+                        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+                <div class="panel-footer">
+                    <a href="https://en.wikipedia.org/wiki/Lionel_Messi"
+                       target="_blank"
+                       data-toggle="tooltip" data-placement="top" title="More about Messi"
+                    >
+                        More about Messi... </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <i class="glyphicon glyphicon-euro"></i>
+                    Neymar
+                </div>
+                <div class="panel-body">
+                    <p>
+                        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+                <div class="panel-footer">
+                    <a href="https://en.wikipedia.org/wiki/Neymar" target="_blank">
+                        More about Neymar... </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <i class="glyphicon glyphicon-user"></i>
+                    Ronaldo
+                </div>
+                <div class="panel-body">
+                    <p>
+                        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+                <div class="panel-footer">
+                    <a href="https://en.wikipedia.org/wiki/Ronaldo" target="_blank">
+                        More about Ronaldo... </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row hidden-xs">
+        <div class="col-xs-12 col-sm-4">
+            <img class="img-responsive img-circle" src="images/messi.jpg"/>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <img class="img-responsive img-circle" src="images/neymar.jpg"/>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <img class="img-responsive img-circle" src="images/ronaldo.jpg"/>
+        </div>
+    </div>
+
+    <div class="row margin-15">
+
+        <div class="panel-group">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse"
+                        data-target="#myCollapsiblePanel">
+                        Choose your favourite player
+                    </h3>
+                </div>
+                <div class="panel-collapse collapse in" id="myCollapsiblePanel">
+                    <div class="panel-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input class="form-control" type="text" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input class="form-control" type="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                Popularity:
+                                <label>
+                                    <input type="checkbox" name="Messi" value="Messi"/> Messi
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="Neymar" value="Neymar"/>Neymar
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="Ronaldo" value="Ronaldo"/>Ronaldo
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                Who`s the best:
+                                <label>
+                                    <input type="radio" name="player" value="Messi"/>Messi
+                                </label>
+                                <label>
+                                    <input type="radio" name="player" value="Neymar"/>Neymar
+                                </label>
+                                <label>
+                                    <input type="radio" name="player" value="Ronaldo"/>Ronaldo
+                                </label>
+                            </div>
+
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#myModal">
+                                SEND
+                            </button>
+
+                            <div class="modal fade" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                x
+                                            </button>
+                                            <h4 class="model-title">Are you sure about your choice?</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                I`ve changed my mind!
+                                            </button>
+                                            <button type="button" class="btn btn-success ok-btn" data-dismiss="modal">
+                                                I`m sure about it!
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    $('#myModal').on('shown.bs.modal', function () {
+        $('.modal-body').empty();
+        $('.ok-btn').attr('disabled', false);
+
+        var theBestPlayerInput = $('input:checked[name=player]');
+        var theBestPlayer = theBestPlayerInput.val();
+
+        if (theBestPlayer) {
+            $('.modal-body').append('<p> The best player in the world is: ' + theBestPlayer + '</p>');
+        } else {
+            $('.modal-body').append('<p> Go back and select the best player! </p>');
+            $('.ok-btn').attr('disabled', true);
+        }
+    });
+</script>
+
+
+</body>
+</html>
